@@ -21,8 +21,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="カウントアップ"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/count_text" />
+        app:layout_constraintTop_toBottomOf="@id/count_text"
+        app:layout_constraintVertical_bias="0.045" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
